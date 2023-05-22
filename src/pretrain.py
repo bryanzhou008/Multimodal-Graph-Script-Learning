@@ -276,9 +276,9 @@ def main():
     Generator.resize_token_embeddings(len(bart_tokenizer))
 
 
-    with open("/local1/bryanzhou008/Multimodal-Graph-Script-Learning/data/ht100m_wikihow_input_sequences.json", "r") as fp:
+    with open("Multimodal-Graph-Script-Learning/data/ht100m_wikihow_input_sequences.json", "r") as fp:
         WIKIHOW_INPUT_DATA = json.load(fp)
-    with open("/local1/bryanzhou008/Multimodal-Graph-Script-Learning/data/ht100m_wikihow_output_sequences.json", "r") as fp:
+    with open("Multimodal-Graph-Script-Learning/data/ht100m_wikihow_output_sequences.json", "r") as fp:
         SEP_GROUNDED_DATA = json.load(fp)
 
     too_short = [i for i in range(len(SEP_GROUNDED_DATA)) if len(SEP_GROUNDED_DATA[i]) < 4]
