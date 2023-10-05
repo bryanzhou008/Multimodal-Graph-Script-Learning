@@ -14,8 +14,6 @@ Online resources such as WikiHow compile a wide range of scripts for performing 
 
 # Requirements
 
---
-
 The models in this paper are runnable on a single Nvidia V-100 GPU and CUDA Version: 12.0. <br>
 Please see [environment.yml](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/blob/main/environment.yml) for specific package requirements.<br>
 
@@ -28,8 +26,6 @@ For finetuning models on CrossTask, please refer to  [finetune.py](https://githu
 The corresponding data can be downloaded from their respective webpages: [HowTo100M](https://www.di.ens.fr/willow/research/howto100m/) and [CrossTask](https://github.com/DmZhukov/CrossTask).<br>
 
 # Evaluation
-
---
 
 To generate probablistic schema graphs as shown in [outputs](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/tree/main/sample_output), please refer to [graph.py](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/blob/main/src/graph.py).
 
