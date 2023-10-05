@@ -19,8 +19,6 @@ Please see [environment.yml](https://github.com/bryanzhou008/Multimodal-Graph-Sc
 
 # Training
 
---
-
 For pre-training our models on HowTo100M, please refer to [pretrain.py](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/blob/main/src/pretrain.py).<br>
 For finetuning models on CrossTask, please refer to  [finetune.py](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/blob/main/src/finetune.py).<br>
 The corresponding data can be downloaded from their respective webpages: [HowTo100M](https://www.di.ens.fr/willow/research/howto100m/) and [CrossTask](https://github.com/DmZhukov/CrossTask).<br>
