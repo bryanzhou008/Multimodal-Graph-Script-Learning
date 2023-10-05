@@ -4,7 +4,7 @@
 ![PyTorch](https://img.shields.io/badge/pytorch-1.5-yellow)
 
 
-**[Non-Sequential Graph Script Induction via Multimedia Grounding]([https://arxiv.org/pdf/2211.01781.pdf](https://aclanthology.org/2023.acl-long.303.pdf))**<br>
+**[Non-Sequential Graph Script Induction via Multimedia Grounding](https://aclanthology.org/2023.acl-long.303.pdf)**<br>
 Yu Zhou, Sha Li, Manling Li, Xudong Lin, Shih-Fu Chang, Mohit Bansal and Heng Ji <br>
 ACL 2023 <br>
 
