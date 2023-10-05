@@ -14,10 +14,14 @@ Online resources such as WikiHow compile a wide range of scripts for performing 
 
 # Requirements
 
+--
+
 The models in this paper are runnable on a single Nvidia V-100 GPU and CUDA Version: 12.0. <br>
 Please see [environment.yml](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/blob/main/environment.yml) for specific package requirements.<br>
 
 # Training
+
+--
 
 For pre-training our models on HowTo100M, please refer to [pretrain.py](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/blob/main/src/pretrain.py).<br>
 For finetuning models on CrossTask, please refer to  [finetune.py](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/blob/main/src/finetune.py).<br>
@@ -25,12 +29,14 @@ The corresponding data can be downloaded from their respective webpages: [HowTo1
 
 # Evaluation
 
-To generate probablistic schema graphs as shown in [outputs](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/tree/main/sample_output), please refer to [graph.py](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/blob/main/src/graph.py)
+--
+
+To generate probablistic schema graphs as shown in [outputs](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/tree/main/sample_output), please refer to [graph.py](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/blob/main/src/graph.py).
 
 For evaluating trained models on Next Step Prediction and Partial Sequence Completion, please refer to [next_step_prediction.py](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/blob/main/src/next_step_prediction.py) and [partial_sequence_completion.py](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/blob/main/src/partial_sequence_completion.py).<br>
 
 
-# If you find the code useful, please consider citing our paper
+## If you find the code useful, please consider citing our paper
 ```
 @inproceedings{Zhou2023NonSequential,
    title={Non-Sequential Graph Script Induction via Multimedia Grounding},
