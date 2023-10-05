@@ -1,0 +1,13 @@
+temp_dir/
+tmp/
+*__pycache__/
+data/*
+!data/*.md
+results/
+*cookies*
+
+*.pkl
+*.pt
+*.np
+*.npy
+*.pdf
