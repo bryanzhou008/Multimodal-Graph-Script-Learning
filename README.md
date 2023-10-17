@@ -38,7 +38,7 @@ To generate probablistic schema graphs as shown in [outputs](https://github.com/
 For evaluating trained models on Next Step Prediction and Partial Sequence Completion, please refer to [next_step_prediction.py](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/blob/main/src/next_step_prediction.py) and [partial_sequence_completion.py](https://github.com/bryanzhou008/Multimodal-Graph-Script-Learning/blob/main/src/partial_sequence_completion.py).<br><br>
 
 
-## Citation
+## BibTeX
 
 If you find the code in this repo useful, please consider citing our paper:
 
