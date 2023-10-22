@@ -43,11 +43,11 @@ For evaluating trained models on Next Step Prediction and Partial Sequence Compl
 If you find the code in this repo useful, please consider citing our paper:
 
 ```
-@inproceedings{Zhou2023NonSequential,
-   title={Non-Sequential Graph Script Induction via Multimedia Grounding},
-   author={Zhou, Yu and Li, Sha and Li, Manling and Lin, Xudong and Chang, Shih-Fu and Bansal, Mohit and Ji, Heng},
-   booktitle={ACL},
-   year={2023},
+@inproceedings{zhou2023non,
+  title={Non-Sequential Graph Script Induction via Multimedia Grounding},
+  author={Zhou, Yu and Li, Sha and Manling, Li and Xudong, Lin and Chang, Shih-Fu and Bansal, Mohit and Ji, Heng},
+  booktitle={Proc. the 61th Annual Meeting of the Association for Computational Linguistics (ACL2023)},
+  year={2023}
 }
 ```
 
