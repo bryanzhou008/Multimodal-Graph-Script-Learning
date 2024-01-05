@@ -50,7 +50,3 @@ If you find the code in this repo useful, please consider citing our paper:
   year={2023}
 }
 ```
-
-
-
-## This repo in currently being updated by the authors, please wait for a stable version, thanks!
